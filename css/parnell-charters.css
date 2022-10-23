@@ -1,14 +1,21 @@
 html {
     font-family: "Tahoma", "SansSerif", serif;
     background-color: aqua;
+    background-image: url("../img/ocean.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .navbar {
     list-style-type: none;
     margin: 0;
-    padding: 200;
     background-color: rgba(0, 0, 139, 0.3);
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 .navbar li {
