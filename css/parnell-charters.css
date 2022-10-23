@@ -1,0 +1,33 @@
+html {
+    font-family: "Tahoma", "SansSerif", serif;
+    background-color: aqua;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 200;
+    background-color: rgba(0, 0, 139, 0.3);
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    font-weight: bolder;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #04AA6D;
+}
