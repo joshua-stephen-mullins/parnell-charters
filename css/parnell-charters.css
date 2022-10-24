@@ -44,11 +44,14 @@ html {
     gap: 1em;
     font-size: 18px;
 }
+
 .menu li:hover {
     background-color: #4c9e9e;
-    border-radius: 50px;
+    border-radius: 10px;
     transition: 0.3s ease;
+    padding: 10px;
 }
+
 .menu li {
     /*padding: 5px 14px;*/
 }
@@ -79,4 +82,15 @@ html {
     width: 80%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
 }
