@@ -1,11 +1,16 @@
 html {
     font-family: "Passion One", "Tahoma", "SansSerif", serif;
     background-color: aqua;
-    background-image: url("../img/ocean.jpg");
+    background-image: url("../img/screengrab.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     scroll-behavior: smooth;
+}
+
+html, body {
+    margin:0;
+    padding:0;
 }
 
 .navbar {
@@ -60,16 +65,18 @@ a:active {
     background-color: #04AA6D;
 }
 
-.gapToShowBackground {
+#gapToShowBackground {
     content: "";
     height: 600px;
 }
 
 #captain {
     display: flex;
-    background-color: aqua;
+    background-color: #628EA2;
     margin: 114.25px 50px 50px 50px;
-    border: 5px solid white;
+    /*border: 5px solid white;*/
+    box-shadow: 0 30px 40px rgba(0,0,0,.9);
+    border-radius: 10px;
 }
 
 #stewPic {
@@ -81,6 +88,7 @@ a:active {
 #stewBio {
     margin: 50px 50px 50px 50px;
     width: 500px;
+    font-size: 30px;
     /*border: 5px solid white;*/
 
 }
@@ -92,9 +100,11 @@ a:active {
 
 #boat {
     display: flex;
-    background-color: aqua;
+    background-color: #628EA2;
     margin: 50px 50px 50px 50px;
-    border: 5px solid white;
+    /*border: 5px solid white;*/
+    box-shadow: 0 30px 40px rgba(0,0,0,.9);
+    border-radius: 10px;
 }
 
 #boatPic {
@@ -110,12 +120,13 @@ a:active {
 }
 
 .footer {
-    color: white;
-    background-color: black;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    /*position: absolute;*/
+    margin: 0;
     width: 100%;
-    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*padding: 10px;*/
+    background-color: black;
+    color: white;
 }
