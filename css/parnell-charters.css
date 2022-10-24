@@ -9,29 +9,54 @@ html {
 .navbar {
     list-style-type: none;
     margin: 0;
-    background-color: rgba(0, 0, 139, 0.3);
     overflow: hidden;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(0, 0, 139, 0.3);
+    color: white;
 }
 
 .navbar li {
-    float: left;
+    /*float: left;*/
     font-weight: bolder;
 }
 
-.navbar li a:hover {
-    background-color: #111;
+/*.navbar li a:hover {*/
+/*    background-color: #111;*/
+/*}*/
+
+.logo {
+    width: 150px;
+    height: auto;
 }
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.menu li {
+    /*padding: 5px 14px;*/
+}
+
 
 .navbar a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    /*text-align: center;*/
+    /*padding: 14px 16px;*/
     text-decoration: none;
 }
 
