@@ -1,10 +1,11 @@
 html {
-    font-family: "Passion One Regular", "Tahoma", "SansSerif", serif;
+    font-family: "Passion One", "Tahoma", "SansSerif", serif;
     background-color: aqua;
     background-image: url("../img/ocean.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -22,17 +23,7 @@ html {
     padding: 10px;
     background-color: #628EA2;
     color: white;
-    border-bottom: white;
 }
-
-.navbar li {
-    /*float: left;*/
-    font-weight: bolder;
-}
-
-/*.navbar li a:hover {*/
-/*    background-color: #111;*/
-/*}*/
 
 .logo {
     width: 150px;
@@ -52,36 +43,70 @@ html {
     padding: 10px;
 }
 
-.menu li {
-    /*padding: 5px 14px;*/
-}
-
-
 .navbar a {
     display: block;
     color: white;
-    /*text-align: center;*/
-    /*padding: 14px 16px;*/
     text-decoration: none;
 }
 
-.active {
+#bookNow {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+a:active {
     background-color: #04AA6D;
+}
+
+.gapToShowBackground {
+    content: "";
+    height: 600px;
 }
 
 #captain {
     display: flex;
-    margin: 50px auto;
-    width: 85%;
-    height: 750px;
-    /*border: 5px solid white;*/
     background-color: aqua;
+    margin: 114.25px 50px 50px 50px;
+    border: 5px solid white;
 }
 
 #stewPic {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px 50px 50px 50px;
+    width: 500px;
+    border: 5px solid white;
+}
+
+#stewBio {
+    margin: 50px 50px 50px 50px;
+    width: 500px;
+    /*border: 5px solid white;*/
+
+}
+#stewBio h2{
+    text-align: center;
+    /*text-decoration: underline;*/
+    font-size: 40px;
+}
+
+#boat {
+    display: flex;
+    background-color: aqua;
+    margin: 50px 50px 50px 50px;
+    border: 5px solid white;
+}
+
+#boatPic {
+    margin: 50px 50px 50px 50px;
+    width: 600px;
+    border: 5px solid white;
+}
+
+#boatInfo {
+    margin: 50px 50px 50px 50px;
+    width: 500px;
+    font-size: 50px;
 }
 
 .footer {
@@ -90,7 +115,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     width: 100%;
-    padding: 10px;
-    margin: 0;
+    padding: 1px;
 }
