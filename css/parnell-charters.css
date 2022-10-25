@@ -13,33 +13,44 @@ html, body {
     padding:0;
 }
 
+nav{
+
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-evenly;*/
     padding: 10px;
     background-color: #628EA2;
-    color: white;
+    color: black;
     border-bottom: black solid 1px;
+}
+
+.navbar a {
+    display: block;
+    color: black;
+    text-decoration: none;
 }
 
 .logo {
     width: 150px;
     height: auto;
+    float: left;
 }
 
 .menu {
     display: flex;
     gap: 1em;
-    font-size: 18px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
 }
 
 .menu li:hover {
@@ -49,17 +60,18 @@ html, body {
     padding: 10px;
 }
 
-.navbar a {
-    display: block;
-    color: white;
-    text-decoration: none;
+
+.menu a:active {
+    background-color: #04AA6D;
 }
 
+
 #bookNow {
-    background-color: red;
+    background-color: #af0707;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     border: 2px solid black;
+    float: right;
 }
 
 a:active {
@@ -121,7 +133,7 @@ a:active {
     text-align: center;
     /*text-decoration: underline;*/
     font-size: 50px;
-    margin-top: 0;
+    margin: 0;
 }
 
 #boatInfo {
@@ -131,7 +143,6 @@ a:active {
 }
 
 #whatCatch {
-    display: flex;
     background-color: #628EA2;
     margin: 50px 50px 50px 50px;
     box-shadow: 0 30px 40px rgba(0,0,0,.9);
@@ -139,15 +150,14 @@ a:active {
     border: black solid 1px;
 }
 
-.fishPics{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+#whatCatch h2{
+    text-align: center;
+    /*text-decoration: underline;*/
+    font-size: 50px;
+    margin: 0;
 }
 
-.fishPics ul{
-    list-style-type: none;
+.fishPics{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
