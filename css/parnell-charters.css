@@ -28,6 +28,7 @@ html, body {
     padding: 10px;
     background-color: #628EA2;
     color: white;
+    border-bottom: black solid 1px;
 }
 
 .logo {
@@ -77,6 +78,7 @@ a:active {
     /*border: 5px solid white;*/
     box-shadow: 0 30px 40px rgba(0,0,0,.9);
     border-radius: 10px;
+    border: black solid 1px;
 }
 
 #stewPic {
@@ -89,9 +91,10 @@ a:active {
     margin: 50px 50px 50px 50px;
     width: 500px;
     font-size: 30px;
-    /*border: 5px solid white;*/
+    margin-top: 0;
 
 }
+
 #stewBio h2{
     text-align: center;
     /*text-decoration: underline;*/
@@ -105,6 +108,7 @@ a:active {
     /*border: 5px solid white;*/
     box-shadow: 0 30px 40px rgba(0,0,0,.9);
     border-radius: 10px;
+    border: black solid 1px;
 }
 
 #boatPic {
@@ -113,10 +117,50 @@ a:active {
     border: 5px solid white;
 }
 
+#boat h2{
+    text-align: center;
+    /*text-decoration: underline;*/
+    font-size: 50px;
+    margin-top: 0;
+}
+
 #boatInfo {
     margin: 50px 50px 50px 50px;
     width: 500px;
-    font-size: 50px;
+    font-size: 45px;
+}
+
+#whatCatch {
+    display: flex;
+    background-color: #628EA2;
+    margin: 50px 50px 50px 50px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.9);
+    border-radius: 10px;
+    border: black solid 1px;
+}
+
+.fishPics{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fishPics ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fishPics img{
+    width: 225px;
+    height: auto;
+    border: black solid 1px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.9);
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .footer {
