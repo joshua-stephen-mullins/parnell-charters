@@ -13,10 +13,6 @@ html, body {
     padding:0;
 }
 
-nav{
-
-}
-
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -26,7 +22,7 @@ nav{
     padding: 10px;
     background-color: #628EA2;
     color: black;
-    border-bottom: black solid 1px;
+    border-bottom: black solid 2.5px;
 }
 
 .navbar a {
@@ -46,31 +42,25 @@ nav{
     gap: 1em;
     font-size: 24px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin-right: 25px;
 }
 
-.menu li:hover {
+.topNav:hover {
     background-color: #4c9e9e;
     border-radius: 10px;
     transition: 0.3s ease;
     padding: 10px;
 }
 
-
-.menu a:active {
-    background-color: #04AA6D;
-}
-
-
 #bookNow {
     background-color: #af0707;
     border-radius: 10px;
     padding: 8px;
     border: 2px solid black;
-    /*float: right;*/
-    order: 1;
-    align-self: self-end;
+    float: right;
+    font-size: 24px;
+    /*margin-right: 10px;*/
 }
 
 a:active {
@@ -89,13 +79,13 @@ a:active {
     /*border: 5px solid white;*/
     box-shadow: 0 30px 40px rgba(0,0,0,.9);
     border-radius: 10px;
-    border: black solid 1px;
+    border: black solid 2.5px;
 }
 
 #stewPic {
     margin: 50px 50px 50px 50px;
     width: 500px;
-    border: 5px solid white;
+    border: 5px solid black;
 }
 
 #stewBio {
@@ -119,13 +109,13 @@ a:active {
     /*border: 5px solid white;*/
     box-shadow: 0 30px 40px rgba(0,0,0,.9);
     border-radius: 10px;
-    border: black solid 1px;
+    border: black solid 2.5px;
 }
 
 #boatPic {
     margin: 50px 50px 50px 50px;
     width: 600px;
-    border: 5px solid white;
+    border: 5px solid black;
 }
 
 #boat h2{
@@ -146,7 +136,7 @@ a:active {
     margin: 50px 50px 50px 50px;
     box-shadow: 0 30px 40px rgba(0,0,0,.9);
     border-radius: 10px;
-    border: black solid 1px;
+    border: black solid 2.5px;
 }
 
 #whatCatch h2{
@@ -166,7 +156,7 @@ a:active {
 .fishPics img{
     width: 225px;
     height: auto;
-    border: black solid 1px;
+    border: black solid 2.5px;
     box-shadow: 0 30px 40px rgba(0,0,0,.9);
     border-radius: 10px;
     margin: 10px;
@@ -182,4 +172,82 @@ a:active {
     /*padding: 10px;*/
     background-color: black;
     color: white;
+}
+
+
+
+
+
+
+
+.fishTestPics{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fishTestPics img{
+    width: 225px;
+    height: 130px;
+    border: black solid 2.5px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.9);
+    border-radius: 10px;
+    /*margin: 10px;*/
+}
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 225px;
+    height: 130px;
+    /*border: 1px solid #f1f1f1;*/
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    /*border: black solid 2.5px;*/
+    /*background-color: black;*/
+    /*box-shadow: 0 30px 40px rgba(0,0,0,.9);*/
+    border-radius: 10px;
+    /*margin: 10px;*/
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    /*background-color: #bbb;*/
+    /*color: black;*/
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #021f3e;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    border: black solid 2.5px;
 }
