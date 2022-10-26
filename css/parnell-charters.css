@@ -247,6 +247,7 @@ a:active {
 .flip-card-front {
     background-color: #bbb;
     color: black;
+    border-radius: 10px;
 }
 
 /* Style the back side */
@@ -257,11 +258,34 @@ a:active {
     border-radius: 10px;
     border: black solid 2.5px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.flip-card-back img {
+/*.flip-card-back img {*/
+/*    border: 0;*/
+/*    width: 50%;*/
+/*    height: auto;*/
+/*    box-shadow: none;*/
+/*    align-self: flex-start;*/
+/*}*/
+
+#fishImg {
     border: 0;
     width: 50%;
     height: auto;
+    box-shadow: none;
+    /*align-self: flex-start;*/
+}
+
+.flip-card-back h1 {
+    align-self: center;
+    font-size: 24px;
+}
+
+#gauge {
+    width: 75px;
+    height: auto;
+    border: none;
     box-shadow: none;
 }
