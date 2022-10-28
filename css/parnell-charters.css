@@ -345,3 +345,14 @@ a:active {
     background-color: black;
     color: white;
 }
+
+
+#bookNowPage {
+    display: flex;
+    background-color: #628EA2;
+    margin: 114.25px 50px 50px 50px;
+    /*border: 5px solid white;*/
+    box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
+    border-radius: 10px;
+    border: black solid 2.5px;
+}
