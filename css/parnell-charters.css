@@ -364,4 +364,5 @@ a:active {
 
 form {
     font-size: 50px;
+    display: flex;
 }

@@ -37,10 +37,14 @@
             <h2>Book Now!</h2>
             <form method="post" action="https://request-inspector.glitch.me/">
                 <label for="name">Name:</label>
-                <input id="name" name="name" type="text">
+                <input id="name" name="name" type="text" required>
 
                 <label for="email">Email:</label>
-                <input id="email" name="email" type="email">
+                <input id="email" name="email" type="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input id="phone" name="phone" type="text" required>
+
                 <select name="experienceSelect">
                     <option value="offshoreFD">Full Day Offshore Experience</option>
                     <option value="offshoreHD">Half Day Offshore Experience</option>
