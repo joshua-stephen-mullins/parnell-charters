@@ -309,7 +309,7 @@ a:active {
 
 .photos img {
     width: 25%;
-    margin: 15px;
+    margin: 15px 15px 65px;
     box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
     border-radius: 10px;
     border: black solid 2.5px;
@@ -325,7 +325,7 @@ a:active {
 }
 
 #photos::-webkit-scrollbar-thumb {
-    background-color: #021f3e;
+    background-color: black;
     border-radius: 10px;
     border: 4px solid transparent;
     background-clip: content-box;
