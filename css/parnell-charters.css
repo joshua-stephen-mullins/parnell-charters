@@ -363,21 +363,59 @@ a:active {
 }
 
 form {
-    font-size: 50px;
+    font-size: 40px;
     /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-evenly;*/
+    margin: auto;
 }
 
-input[type=text], input[type=email], select {
-    width: 33%;
+input[type=text] {
+    width: 25%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 40px;
     font-family: "Passion One", "Tahoma", "SansSerif", serif;
+}
 
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: "Passion One", "Tahoma", "SansSerif", serif;
+}
+
+input[type=date] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: "Passion One", "Tahoma", "SansSerif", serif;
+}
+
+select {
+    width: 42%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: "Passion One", "Tahoma", "SansSerif", serif;
 }
 
 input[type=submit] {
@@ -390,7 +428,18 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-family: "Passion One", "Tahoma", "SansSerif", serif;
+}
 
+button {
+    width: 30%;
+    background-color: #020d7b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Passion One", "Tahoma", "SansSerif", serif;
 }
 
 input[type=submit]:hover {
