@@ -341,9 +341,24 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /*padding: 10px;*/
     background-color: black;
     color: white;
+    flex-direction: column;
+}
+
+.footer i {
+    border: 1px white solid;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 20px 5px 0 0;
+}
+
+.footer a {
+    color: white;
+}
+
+#disclaimer {
+    font-size: 12px;
 }
 
 
