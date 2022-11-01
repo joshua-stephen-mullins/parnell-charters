@@ -61,7 +61,6 @@ html, body {
     border: 2px solid black;
     float: right;
     font-size: 24px;
-    /*margin-right: 10px;*/
 }
 
 a:active {
@@ -70,13 +69,13 @@ a:active {
 
 #gapToShowBackground {
     content: "";
-    height: 600px;
+    height: 100vh;
 }
 
 #captain {
     display: flex;
     background-color: #628EA2;
-    margin: 114.25px 50px 50px 50px;
+    margin: 5em;
     /*border: 5px solid white;*/
     box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
     border-radius: 10px;
@@ -84,27 +83,27 @@ a:active {
 }
 
 #stewPic {
-    margin: 50px 50px 50px 50px;
+    margin: 3em;
     width: 40%;
+    height: auto;
     border: 5px solid black;
 }
 
 #stewBio {
-    margin: 0 50px 50px 50px;
-    width: 500px;
-    font-size: 30px;
+    margin: 0;
+    width: 50em;
+    font-size: 2em;
 }
 
 #stewBio h2 {
     text-align: center;
     text-decoration: underline;
-    font-size: 40px;
 }
 
 #boat {
     display: flex;
     background-color: #628EA2;
-    margin: 50px 50px 50px 50px;
+    margin: 5em;
     /*border: 5px solid white;*/
     box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
     border-radius: 10px;
@@ -112,7 +111,7 @@ a:active {
 }
 
 #boatPic {
-    margin: 50px 50px 50px 50px;
+    margin: 3em;
     width: 50%;
     border: 5px solid black;
 }
@@ -132,7 +131,7 @@ a:active {
 
 #whatCatch {
     background-color: #628EA2;
-    margin: 50px 50px 50px 50px;
+    margin: 5em;
     box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
     border-radius: 10px;
     border: black solid 2.5px;
@@ -150,23 +149,7 @@ a:active {
     text-decoration: underline;
 }
 
-/*.fishPics {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    align-items: center;*/
-/*    justify-content: space-evenly;*/
-/*}*/
-
-/*.fishPics img {*/
-/*    width: 225px;*/
-/*    height: auto;*/
-/*    border: black solid 2.5px;*/
-/*    box-shadow: 0 30px 40px rgba(0, 0, 0, .9);*/
-/*    border-radius: 10px;*/
-/*    margin: 10px;*/
-/*}*/
-
-.fishTestPics {
+.fishPics {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -174,7 +157,7 @@ a:active {
     /*overflow-x: auto;*/
 }
 
-.fishTestPics img {
+.fishPics img {
     width: 350px;
     height: 200px;
     border: black solid 2.5px;
@@ -200,11 +183,8 @@ a:active {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    /*border: black solid 2.5px;*/
-    /*background-color: black;*/
     box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
     border-radius: 10px;
-    /*margin: 10px;*/
 }
 
 .flip-card:hover .flip-card-inner {
@@ -234,10 +214,6 @@ a:active {
     transform: rotateY(180deg);
     border-radius: 10px;
     border: black solid 2.5px;
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*align-self: center;*/
-    /*justify-content: space-evenly;*/
 }
 
 .flip-card-back h1 {
@@ -282,7 +258,7 @@ a:active {
 
 .photos {
     background-color: #628EA2;
-    margin: 50px 50px 50px 50px;
+    margin: 5em;
     border: black solid 2.5px;
     border-radius: 10px;
     box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
@@ -291,16 +267,11 @@ a:active {
 #photos {
     overflow-x: auto;
     display: flex;
-    /*border: 5px solid white;*/
-
-
-
 }
 
 .photos h2 {
     text-align: center;
-    /*text-decoration: underline;*/
-    font-size: 50px;
+    font-size: 4em;
     margin: 0;
     align-self: center;
     justify-content: center;
@@ -316,7 +287,6 @@ a:active {
 }
 
 #photos::-webkit-scrollbar {
-    /*display: none;*/
     width: 30px;
 }
 
@@ -371,7 +341,6 @@ a:active {
     display: flex;
     background-color: #628EA2;
     margin: 114.25px 50px 50px 50px;
-    /*border: 5px solid white;*/
     box-shadow: 0 30px 40px rgba(0, 0, 0, .9);
     border-radius: 10px;
     border: black solid 2.5px;
@@ -384,9 +353,6 @@ a:active {
 
 form {
     font-size: 50px;
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*justify-content: space-evenly;*/
     margin: auto;
 }
 
@@ -437,18 +403,6 @@ select {
     font-size: 40px;
     font-family: "Passion One", "Tahoma", "SansSerif", serif;
 }
-
-/*input[type=submit] {*/
-/*    width: 100%;*/
-/*    background-color: #4CAF50;*/
-/*    color: white;*/
-/*    padding: 14px 20px;*/
-/*    margin: 8px 0;*/
-/*    border: none;*/
-/*    border-radius: 4px;*/
-/*    cursor: pointer;*/
-/*    font-family: "Passion One", "Tahoma", "SansSerif", serif;*/
-/*}*/
 
 button {
     width: 30%;
