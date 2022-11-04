@@ -1,0 +1,19 @@
+html, body, nav {
+    font-family: "Passion One", "Tahoma", "SansSerif", serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+nav {
+    background-color: #628EA2;
+    color: black;
+    border-bottom: black solid 2.5px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    float: left;
+}
